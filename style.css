@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+    background-color: black;
+}
+.header{
+    width: 84vw;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+    background-position: relative;
+    background-size: cover;
+    padding: 10px 8%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background:#db0001;
+    color: #fff;
+    padding:7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language_btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    width: 100px;
+    height: 30px;
+}
+.language_btn img{
+    width: 10px;
+    margin: 10px;
+}
+.header_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header_content h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+}
+.header_content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.header_content h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.header_content .sign_up{
+    width: 650px;
+    height: 30px;
+}
+.header_content .sign_up input{
+    width: 400px;
+    height: 35px ;
+    margin-left: 80px;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: #fff solid;
+}
+.header_content .sign_up button{
+
+    border: 0;
+    outline: 0;
+    height: 35px ;
+    background:#db0001;
+    color: #fff;
+    padding:7px 15px;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.part2{
+    height: 400px;
+    display: inline-block;
+}
+.part2 img{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 450px;
+    position: absolute;
+}
+.part2 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 150px;
+}
+.part2  h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.line{
+    color: rgba(62, 59, 59, 0.016);
+    width: 183vh;
+    height: 10px;
+    outline: none;
+    border: dimgray solid 2px;
+}
+.part3 img{
+    height: 350px;
+    margin-left: 200px; 
+    position: absolute;
+}
+.part3{
+    height: 400px;
+    display: inline-block;
+}
+.part3 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 750px;
+}
+.part3  h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 750px;
+}
+.part4{
+    height: 400px;
+    display: inline-block;
+}
+.part4 img{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 450px;
+    position: absolute;
+}
+.part4 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 150px;
+}
+.part4  h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.part5 img{
+    height: 350px;
+    margin-left: 200px; 
+    position: absolute;
+}
+.part5{
+    height: 400px;
+    display: inline-block;
+}
+.part5 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 750px;
+}
+.part5 h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 750px;
+}
